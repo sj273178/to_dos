@@ -346,7 +346,7 @@ Home page lecture updates, This includes a calendar and 4 simplified cards of th
 
 ### Abel
 ================================
-Commuinication hero section
+- Commuinication hero section
 
 
 
