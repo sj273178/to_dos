@@ -7,6 +7,7 @@ for colors,
 
 ### Jeslor
 - update the theme and create a repo to share the todos
+- fix the css and add the right gradients
 
 
 #### Ruth
