@@ -303,3 +303,55 @@ this is the css you should use after pulling to achieve the design I have just s
 - Please add a secondary button with bg white and on hover the primary color
 - add an outline button with a primary color border of opacity of 0.6 and on hover it goes to 1, please cordinate with moisha
 - Use the gradient I have added as the bacground of the primary button on hover
+
+### Hillary
+================================
+Home page lecture updates, This includes a calendar and 4 simplified cards of the upcoming lectures
+
+### Rogers
+================================
+- Rogers is working on the login page
+
+### Elly
+================================
+- Build the create user page
+
+### Suban
+================================
+- Communication cards
+
+### Natasha
+================================
+- Footer
+
+### Swabula
+================================
+- Results cards
+
+### Hassan
+================================
+- Setting up the results page
+
+### Sifa
+================================
+- Lecturer cards
+
+### John
+================================
+- Organise and setup the lecture page
+
+### Milly
+================================
+- Lecture page hero section
+
+### Abel
+================================
+Commuinication hero section
+
+
+
+
+
+
+
+
