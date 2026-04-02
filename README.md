@@ -306,7 +306,8 @@ this is the css you should use after pulling to achieve the design I have just s
 
 ### Hillary
 ================================
-Home page lecture updates, This includes a calendar and 4 simplified cards of the upcoming lectures
+- Home page lecture updates, This includes a calendar and 4 simplified cards of the upcoming lectures.
+- please make sure that the upcoming and ongoing cards have all the details about the lecture. Preferably us the cards developed by Sifa
 
 ### Rogers
 ================================
