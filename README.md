@@ -312,6 +312,7 @@ this is the css you should use after pulling to achieve the design I have just s
 ### Rogers
 ================================
 - Rogers is working on the login page
+- Please use the theme buttons which Esther has worked on
 
 ### Elly
 ================================
