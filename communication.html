@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="University Communications — Cavendish University Organised Learning Platform"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Communication — Organised Learning Platform</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <a href="/" class="logo">
+          <span class="material-symbols-outlined">local_library</span>
+          Organised Learning Platform
+        </a>
+        <input type="checkbox" id="menu-toggle" />
+        <div class="mobile-menu">
+          <label for="menu-toggle" class="menu">
+            <span></span>
+          </label>
+        </div>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/lectures.html">Lectures</a></li>
+          <li><a href="/results.html">Results</a></li>
+          <li><a href="/communication.html">Communication</a></li>
+          <li><a class="primary-button" href="/login.html">Login</a></li>
+          <li><a class="primary-button" href="/register.html">Register</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="comm-hero">
+      <div class="comm-hero-inner">
+        <div class="hero-badge">University Communications</div>
+        <h1 class="hero-title">
+          Stay In The Loop With
+          <span class="hero-gradient-text">Cavendish Updates</span>
+        </h1>
+        <p class="comm-hero-desc">
+          Important announcements, department notices, and campus news — all in
+          one place.
+        </p>
+      </div>
+    </section>
+
+    <!-- COMMUNICATION CARDS -->
+    <section class="comm-cards-section">
+      <div class="container">
+        <!-- PINNED / URGENT -->
+        <div class="comm-card comm-card--urgent">
+          <div class="comm-card-accent comm-card-accent--red"></div>
+          <div class="comm-card-body">
+            <div class="comm-card-top">
+              <span class="comm-tag comm-tag--red">
+                <span class="material-symbols-outlined">priority_high</span>
+                Urgent
+              </span>
+              <span class="comm-date">April 1, 2026</span>
+            </div>
+            <h3 class="comm-card-title">
+              End of Semester Examination Timetable Released
+            </h3>
+            <p class="comm-card-text">
+              The Academic Registrar's office has published the final
+              examination schedule for Semester II 2025/2026. All students must
+              check their personalised timetables on the student portal. No
+              rescheduling requests will be accepted after April 10, 2026.
+            </p>
+            <div class="comm-card-footer">
+              <div class="comm-author">
+                <span class="comm-author-avatar">AR</span>
+                <span>Academic Registrar</span>
+              </div>
+              <a href="#" class="comm-read-more">
+                Read more
+                <span class="material-symbols-outlined">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- INFO CARD -->
+        <div class="comm-card">
+          <div class="comm-card-accent comm-card-accent--blue"></div>
+          <div class="comm-card-body">
+            <div class="comm-card-top">
+              <span class="comm-tag comm-tag--blue">
+                <span class="material-symbols-outlined">info</span>
+                Notice
+              </span>
+              <span class="comm-date">March 30, 2026</span>
+            </div>
+            <h3 class="comm-card-title">
+              Library Extended Hours During Revision Week
+            </h3>
+            <p class="comm-card-text">
+              The main library will operate extended hours (7:00 AM — 11:00 PM)
+              from April 5–12 to support revision. Wi-Fi and printing services
+              remain available throughout.
+            </p>
+            <div class="comm-card-footer">
+              <div class="comm-author">
+                <span
+                  class="comm-author-avatar"
+                  style="background: var(--primary-color)"
+                >
+                  LS
+                </span>
+                <span>Library Services</span>
+              </div>
+              <a href="#" class="comm-read-more">
+                Read more
+                <span class="material-symbols-outlined">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- EVENT CARD -->
+        <div class="comm-card">
+          <div class="comm-card-accent comm-card-accent--green"></div>
+          <div class="comm-card-body">
+            <div class="comm-card-top">
+              <span class="comm-tag comm-tag--green">
+                <span class="material-symbols-outlined">event</span>
+                Event
+              </span>
+              <span class="comm-date">March 28, 2026</span>
+            </div>
+            <h3 class="comm-card-title">
+              Innovation & Tech Expo — Call for Participants
+            </h3>
+            <p class="comm-card-text">
+              All students are invited to showcase their projects at the annual
+              Innovation & Tech Expo on April 20, 2026. Register through the
+              Student Affairs office by April 8.
+            </p>
+            <div class="comm-card-footer">
+              <div class="comm-author">
+                <span
+                  class="comm-author-avatar"
+                  style="background: var(--secondary-color)"
+                >
+                  SA
+                </span>
+                <span>Student Affairs</span>
+              </div>
+              <a href="#" class="comm-read-more">
+                Read more
+                <span class="material-symbols-outlined">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- DEPARTMENT CARD -->
+        <div class="comm-card">
+          <div class="comm-card-accent comm-card-accent--purple"></div>
+          <div class="comm-card-body">
+            <div class="comm-card-top">
+              <span class="comm-tag comm-tag--purple">
+                <span class="material-symbols-outlined">school</span>
+                Department
+              </span>
+              <span class="comm-date">March 25, 2026</span>
+            </div>
+            <h3 class="comm-card-title">
+              BIT Year 3 — Web Design CAT 1 Submission Deadline
+            </h3>
+            <p class="comm-card-text">
+              All BIT Year 3 students must submit their Web Design & Internet
+              CAT 1 projects by Friday, April 4, 2026 at 11:59 PM. Late
+              submissions will not be accepted. Upload via the learning portal.
+            </p>
+            <div class="comm-card-footer">
+              <div class="comm-author">
+                <span class="comm-author-avatar" style="background: #a78bfa">
+                  CS
+                </span>
+                <span>Computer Science Dept.</span>
+              </div>
+              <a href="#" class="comm-read-more">
+                Read more
+                <span class="material-symbols-outlined">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- FINANCE CARD -->
+        <div class="comm-card">
+          <div class="comm-card-accent comm-card-accent--orange"></div>
+          <div class="comm-card-body">
+            <div class="comm-card-top">
+              <span class="comm-tag comm-tag--orange">
+                <span class="material-symbols-outlined">payments</span>
+                Finance
+              </span>
+              <span class="comm-date">March 22, 2026</span>
+            </div>
+            <h3 class="comm-card-title">Tuition Balance Clearance Reminder</h3>
+            <p class="comm-card-text">
+              Students with outstanding tuition balances are reminded to clear
+              their fees before April 15, 2026 to avoid being blocked from
+              examinations. Visit the Finance Office for payment plans.
+            </p>
+            <div class="comm-card-footer">
+              <div class="comm-author">
+                <span class="comm-author-avatar" style="background: #e67e22">
+                  FO
+                </span>
+                <span>Finance Office</span>
+              </div>
+              <a href="#" class="comm-read-more">
+                Read more
+                <span class="material-symbols-outlined">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ICT CARD -->
+        <div class="comm-card">
+          <div class="comm-card-accent comm-card-accent--teal"></div>
+          <div class="comm-card-body">
+            <div class="comm-card-top">
+              <span class="comm-tag comm-tag--teal">
+                <span class="material-symbols-outlined">wifi</span>
+                ICT
+              </span>
+              <span class="comm-date">March 20, 2026</span>
+            </div>
+            <h3 class="comm-card-title">
+              Campus Wi-Fi Upgrade — Scheduled Downtime
+            </h3>
+            <p class="comm-card-text">
+              The ICT department will be upgrading campus Wi-Fi infrastructure
+              on April 6 from 12:00 AM — 6:00 AM. Internet services may be
+              intermittent during this window. Plan accordingly.
+            </p>
+            <div class="comm-card-footer">
+              <div class="comm-author">
+                <span class="comm-author-avatar" style="background: #1abc9c">
+                  IT
+                </span>
+                <span>ICT Help Desk</span>
+              </div>
+              <a href="#" class="comm-read-more">
+                Read more
+                <span class="material-symbols-outlined">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
