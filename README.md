@@ -350,6 +350,10 @@ this is the css you should use after pulling to achieve the design I have just s
 ================================
 - Commuinication hero section
 
+### ABDIRIZAK
+================================
+- Setting up thr communications page
+
 
 
 
